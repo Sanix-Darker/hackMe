@@ -23,6 +23,11 @@ def index():
     return render_template("index.html")
 
 
+@app.route("/per")
+def index2():
+    return render_template("index.html")
+
+
 @app.route('/payload', methods=['POST']) # To prevent Cors issues
 @cross_origin(supports_credentials=True)
 def payload():
