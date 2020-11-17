@@ -1,6 +1,6 @@
-./static/payloads/
 .history
 .vscode
 venv
 *__pycache__
 *.pyc
+static/payloads/
